@@ -2,6 +2,27 @@
 
 <div class="bg-white rounded-2xl shadow-sm p-8">
 
+    <?php if (isset($_GET['created'])): ?>
+        <div class="mb-6 bg-green-100 border border-green-300 text-green-700 px-4 py-3 rounded-lg">
+            <i class="fa-solid fa-circle-check"></i>
+            Quiz muvaffaqiyatli qo'shildi.
+        </div>
+    <?php endif; ?>
+
+    <?php if (isset($_GET['updated'])): ?>
+        <div class="mb-6 bg-blue-100 border border-blue-300 text-blue-700 px-4 py-3 rounded-lg">
+            <i class="fa-solid fa-pen-to-square"></i>
+            Quiz muvaffaqiyatli yangilandi.
+        </div>
+    <?php endif; ?>
+
+    <?php if (isset($_GET['deleted'])): ?>
+        <div class="mb-6 bg-red-100 border border-red-300 text-red-700 px-4 py-3 rounded-lg">
+            <i class="fa-solid fa-trash"></i>
+            Quiz muvaffaqiyatli o'chirildi.
+        </div>
+    <?php endif; ?>
+
     <?php
     $tests = json_decode(file_get_contents('../data/tests.json'), true);
     ?>
