@@ -1,11 +1,13 @@
-<?php
-session_start();
+<?php include './header.php' ?>
 
-if (!isset($_SESSION['logined']) || $_SESSION['logined'] !== true) {
-    header("Location: ./login.php");
-    exit;
-}
-?>
+<div class="bg-white rounded-2xl shadow-sm p-8">
+    <h2 class="text-3xl font-bold text-slate-800">
+        Admin panelga xush kelibsiz 👋
+    </h2>
 
-<h1>salom</h1>
-<a href="./logout.php">chiqish</a>
+    <p class="mt-3 text-slate-600">
+        Tizimni boshqarish uchun menyudan foydalaning.
+    </p>
+</div>
+
+<?php include './footer.php' ?>
