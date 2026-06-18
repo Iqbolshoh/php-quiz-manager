@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "Quyidagi funksiyaning hosilasini toping: f(x) = 3x² + 2x - 5",
+    "variants": ["6x + 2", "3x² + 2", "6x + 2x", "x² + 2x"],
+    "correctIndex": 0,
+    "ball": 10
+  },
+  {
+    "id": 2,
+    "question": "O'zbekistonning poytaxti qaysi shahar?",
+    "variants": ["Samarqand", "Buxoro", "Toshkent", "Namangan"],
+    "correctIndex": 2,
+    "ball": 5
+  },
+  {
+    "id": 3,
+    "question": "Quyidagilardan qaysi biri dasturlash tili hisoblanadi?",
+    "variants": ["HTML", "CSS", "Python", "XML"],
+    "correctIndex": 2,
+    "ball": 10
+  },
+  {
+    "id": 4,
+    "question": "2 + 2 * 2 ifodaning qiymati nechaga teng?",
+    "variants": ["8", "6", "4", "10"],
+    "correctIndex": 1,
+    "ball": 15
+  },
+  {
+    "id": 5,
+    "question": "Yer Quyosh atrofida necha kunda aylanib chiqadi?",
+    "variants": ["30 kun", "365 kun", "180 kun", "24 kun"],
+    "correctIndex": 1,
+    "ball": 5
+  }
+]
