@@ -49,18 +49,18 @@ if (!isset($_SESSION['logined']) || $_SESSION['logined'] !== true) {
                     </li>
 
                     <li>
-                        <a href="quiz.php"
+                        <a href="test.php"
                             class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800">
                             <i class="fa-solid fa-list"></i>
-                            Quizlar
+                            testlar
                         </a>
                     </li>
 
                     <li>
-                        <a href="quiz-create.php"
+                        <a href="test-create.php"
                             class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800">
                             <i class="fa-solid fa-plus"></i>
-                            Quiz qo'shish
+                            test qo'shish
                         </a>
                     </li>
                 </ul>
