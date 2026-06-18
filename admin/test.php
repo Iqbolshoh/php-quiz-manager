@@ -9,7 +9,7 @@
     <div class="flex items-center justify-between mb-6">
         <h1 class="text-2xl font-bold">Quizlar</h1>
 
-        <a href="quiz-create.php"
+        <a href="test-create.php"
             class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
             <i class="fa-solid fa-plus"></i>
             Quiz qo'shish
@@ -52,12 +52,12 @@
                         <td class="p-3">
                             <div class="flex justify-center gap-2">
 
-                                <a href="quiz-edit.php?id=<?= $test['id'] ?>"
+                                <a href="test-edit.php?id=<?= $test['id'] ?>"
                                     class="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-2 rounded-lg">
                                     <i class="fa-solid fa-pen"></i>
                                 </a>
 
-                                <a href="quiz-delete.php?id=<?= $test['id'] ?>"
+                                <a href="test-delete.php?id=<?= $test['id'] ?>"
                                     onclick="return confirm('Rostdan ham o‘chirmoqchimisiz?')"
                                     class="bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg">
                                     <i class="fa-solid fa-trash"></i>
