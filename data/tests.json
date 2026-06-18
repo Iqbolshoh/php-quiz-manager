@@ -34,29 +34,5 @@
         ],
         "correctIndex": 2,
         "ball": 10
-    },
-    {
-        "id": 4,
-        "question": "2 + 2 * 2 ifodaning qiymati nechaga teng?",
-        "variants": [
-            "8",
-            "6",
-            "4",
-            "10"
-        ],
-        "correctIndex": 1,
-        "ball": 15
-    },
-    {
-        "id": 5,
-        "question": "Yer Quyosh atrofida necha kunda aylanib chiqadi?",
-        "variants": [
-            "30 kun",
-            "365 kun",
-            "180 kun",
-            "24 kun"
-        ],
-        "correctIndex": 1,
-        "ball": 5
     }
 ]

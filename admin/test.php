@@ -57,11 +57,16 @@
                                     <i class="fa-solid fa-pen"></i>
                                 </a>
 
-                                <a href="test-delete.php?id=<?= $test['id'] ?>"
-                                    onclick="return confirm('Rostdan ham o‘chirmoqchimisiz?')"
-                                    class="bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg">
-                                    <i class="fa-solid fa-trash"></i>
-                                </a>
+                                <form action="test-delete.php" method="POST" class="inline">
+                                    <input type="hidden" name="id" value="<?= $test['id'] ?>">
+
+                                    <button
+                                        type="submit"
+                                        onclick="return confirm('Rostdan ham o‘chirmoqchimisiz?')"
+                                        class="bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </form>
 
                             </div>
                         </td>
